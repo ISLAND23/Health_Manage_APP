@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="数据解读"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"    
+        />
+     <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/advice"
+          android:layout_marginLeft="8dp"
+          android:paddingRight="8dp"
+          android:text="小建议"
+          android:textSize="20sp"
+          />   
+        <ScrollView 
+         android:layout_width="match_parent"   
+         android:layout_height="wrap_content"     
+            >
+      <TextView 
+         android:layout_width="match_parent"   
+         android:layout_height="wrap_content" 
+         android:text="   长期睡眠不足可导致黑眼圈、皮肤蜡黄、黯淡，眼睛浮肿、出现皱纹,还会加速皮肤衰老等问题。睡眠障碍问题以及慢性睡眠不足可增加患有心脏疾病，心脏衰竭，心律不齐，高血压，中风，糖尿病等疾病的风险。建议在每晚9点~11点休息，子时11点~1点入睡。在这个时间段睡觉，最能养阴，睡眠质量也最佳。"
+         android:textSize="15sp" />      
+            
+        </ScrollView>
+
+</LinearLayout>

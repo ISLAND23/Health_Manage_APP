@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:id="@+id/cream"
+        />
+    
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="开启摄像头"
+        android:textSize="20sp"
+        android:id="@+id/cream_btn"
+        android:gravity="center"
+        android:background="#F5F5F5"
+        />
+
+</LinearLayout>

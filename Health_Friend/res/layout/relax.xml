@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   
+     
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放松钢琴曲"
+           android:textSize="20dp"
+           android:layout_marginTop="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp" 
+        android:layout_marginTop="10dp">
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_1"
+        android:id="@+id/click_music_1"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_2"
+        android:id="@+id/click_music_2"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="向往"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="重生"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+     
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp" >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_3"
+        android:id="@+id/click_music_3"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_4"
+        android:id="@+id/click_music_4"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+     
+      <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="旅行"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="独自"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+         <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp" >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_5"
+        android:id="@+id/click_music_5"
+         android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_6"
+        android:id="@+id/click_music_6"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+       <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="自由"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="黄昏"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+        
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+         android:layout_marginTop="10dp"  >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_7"
+        android:id="@+id/click_music_7"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_8"
+        android:id="@+id/click_music_8"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+       <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="希望"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="冬天"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+     
+       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp" >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_9"
+        android:id="@+id/click_music_9"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_10"
+        android:id="@+id/click_music_10"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+     
+       <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="梦想"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="未来"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+     
+       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp" 
+        android:layout_marginTop="10dp">
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_11"
+        android:id="@+id/click_music_11"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_music_12"
+        android:id="@+id/click_music_12"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+     
+       <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="黎明"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="蓝天"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+      
+</LinearLayout>
+</ScrollView>
+

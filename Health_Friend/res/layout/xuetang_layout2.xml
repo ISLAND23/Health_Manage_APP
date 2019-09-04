@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据解读"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"    
+        />
+     <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/xuetang_get_text"
+         android:gravity="center"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:textColor="@color/lightblue"
+         />
+          <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="mmol/L"
+         android:gravity="center"
+         android:textSize="20sp"
+         />
+          <ImageView 
+        android:layout_marginTop="8dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/xuetangzhi"
+		android:layout_gravity="center"
+		android:layout_marginBottom="8dp"
+              
+          />
+      <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/fenxi"
+          android:layout_marginLeft="8dp"
+          android:paddingRight="8dp"
+          android:text="数据解读"
+          android:textSize="15sp"
+          />
+      <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/xuetang_return_text"
+          android:text="您的血糖正常，请继续保持！建议定期监测血糖，随时了解血糖的变化。健康饮食的秘诀是少油少盐，新鲜天然，提高单位重量食物中的营养质量，万不可因为控糖，而让自己每天陷入饥饿的痛苦当中。"
+          android:textSize="10sp"
+          />
+          <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/xiangguanxinxi"
+          android:layout_marginLeft="8dp"
+          android:paddingRight="8dp"
+          android:text="相关信息"
+          android:textSize="13sp"
+          />
+         <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/xuetang_getdate_text"  
+          android:textSize="10sp"
+          android:layout_marginLeft="4dp"
+          />
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手动录入"
+            android:textSize="8sp"
+            android:layout_marginLeft="2dp"
+            
+            />
+    
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/press_test">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="压力测试"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+    
+    <ImageButton 
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/press_test"
+        android:src="@drawable/enter_presstest"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="130dp" 
+        android:background="#00000000"
+        />
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:background="#00000000">
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game"
+            android:id="@+id/enter_game"
+            android:layout_weight="1"
+           android:layout_marginLeft="30dp"
+            android:background="#00000000"/>
+        
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music"
+            android:id="@+id/enter_music"
+            android:layout_weight="1"
+            android:layout_marginLeft="70dp"
+            android:background="#00000000"/>
+        
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nature"
+            android:id="@+id/enter_nature"
+            android:layout_weight="1"
+            android:layout_marginLeft="65dp"
+            android:background="#00000000"/>
+    </LinearLayout>
+    
+   <LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="减压游戏"
+            android:layout_marginLeft="32dp"/>
+         <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="减压音乐"
+            android:layout_marginLeft="35dp"/>
+         <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="自然之声"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+    
+
+</LinearLayout>

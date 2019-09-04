@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   
+     
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+         android:layout_marginTop="10dp">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自然之声"
+           android:textSize="20dp"
+           android:layout_marginTop="8dp"
+          />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp" >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hailang"
+        android:id="@+id/music_nature_hailang"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xiaoxi"
+        android:id="@+id/music_nature_xiaoxi"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="海浪"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="小溪"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+     
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp" >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grid"
+        android:id="@+id/music_nature_grid"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xiangjian"
+        android:id="@+id/music_nature_xiangjian"
+        
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+     
+      <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="鸟啼"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="乡间"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+         <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp" 
+        android:layout_marginTop="5dp" >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chongming"
+        android:id="@+id/music_nature_chongming"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rain"
+        android:id="@+id/music_nature_rain"
+        
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+       <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="虫鸣"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="雨"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+        
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp" 
+        android:layout_marginTop="5dp" >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xiangwan"
+        android:id="@+id/music_nature_xiangwan"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ximgye"
+        android:id="@+id/music_nature_xingye"
+       android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+       <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="向晚"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="星夜"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+     
+       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"  >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/conglin"
+        android:id="@+id/music_nature_conglin"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pubu"
+        android:id="@+id/music_nature_pubu"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+     
+       <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="丛林"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="瀑布"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+      
+       
+       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp" 
+        android:layout_marginTop="5dp" >
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/heliu"
+        android:id="@+id/music_nature_heliu"
+        android:layout_marginLeft="15dp"/>
+    
+     <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tianye"
+        android:id="@+id/music_nature_tianye"
+        android:layout_marginLeft="15dp"/>
+     </LinearLayout>
+     
+       <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="河流"
+             android:textSize="15dp"
+             android:layout_marginLeft="87dp"/>
+         
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="田野"
+             android:textSize="15dp"
+             android:layout_marginLeft="128dp"/>
+     </LinearLayout>
+</LinearLayout>
+</ScrollView>
+

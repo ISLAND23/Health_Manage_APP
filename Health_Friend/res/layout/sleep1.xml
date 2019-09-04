@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/sleep_text1"
+        android:text="睡眠数据"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+     
+        />
+     <ImageView 
+         android:layout_marginTop="-10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/sleepmain"
+     android:layout_gravity="center_horizontal"
+     />
+     
+   <TextView 
+     	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   	 	android:text="请输入您的入睡时间："
+   	 	android:textSize="20dp"
+
+    />
+     
+    <TextView 
+     	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   	 	android:id="@+id/text_sleep"
+   	 	android:clickable="true"
+   	 	android:textSize="15sp"
+   	 	android:layout_marginLeft="5dp"
+    />
+    
+   
+		<TimePicker 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/timePicker_sleep"		
+		        
+		    />   
+   
+    
+       <TextView 
+     	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   	 	android:text="请输入您的起床时间："
+   	 	android:textSize="20dp"
+    />
+     
+    <TextView 
+     	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+   	 	android:id="@+id/text_sleep2"
+   	 	android:clickable="true"
+   	 	android:textSize="15sp"
+   	 	android:layout_marginLeft="5dp"
+    />
+    
+   
+		<TimePicker 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/timePicker_sleep2"		
+		        
+		    />   
+
+
+
+    
+    
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="为了更好的分析您的睡眠，请选择您的睡眠状态"
+   android:gravity="center"
+   android:layout_marginTop="5dp"
+  
+    />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     android:layout_marginTop="8dp"
+    >
+ <Button 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:drawableTop="@drawable/eat"
+     android:text="吃宵夜"
+     android:id="@+id/eat"
+     />  
+      <Button 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:drawableTop="@drawable/drink"
+     android:text="喝酒"
+     android:id="@+id/drink"
+     />  
+      <Button 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:drawableTop="@drawable/pressure"
+     android:text="压力大"
+     android:id="@+id/pressure"
+     />       
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="8dp"
+    >
+ <Button 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:drawableTop="@drawable/bed"
+     android:text="陌生床"
+     android:id="@+id/bed"
+     />  
+      <Button 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:drawableTop="@drawable/coffee"
+     android:text="喝茶/咖啡"
+     android:id="@+id/coffee"
+     />  
+      <Button 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:drawableTop="@drawable/sleep_sport"
+     android:text="睡前运动"
+     android:id="@+id/sleep_sport"
+     />       
+</LinearLayout>
+<Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sleep_save"
+    android:text="保存"
+ 
+    />
+
+</LinearLayout>

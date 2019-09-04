@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/blue">
+    
+ <ImageView 
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/icon_me"
+        android:id="@+id/login_mark"
+ />
+<EditText 
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/name"
+    android:hint=" 用户名："
+    android:textSize="25dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+  android:background="@color/white"
+  />
+
+<EditText 
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/passwd"
+    android:hint=" 密码："
+    android:textSize="25dp"
+   android:layout_marginTop="8dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+   android:background="@color/white"
+    android:password="true"/>
+
+ <CheckBox
+            android:id="@+id/rememberpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:text="记住密码" />
+
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="15dp">
+
+<Button 
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:text="登录"
+    android:id="@+id/login"
+     android:layout_gravity="center_horizontal"
+        android:background="@color/lightsteelblue"
+        android:layout_marginLeft="13dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+<Button 
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:text="注册"
+    android:id="@+id/register"
+     android:layout_gravity="center_horizontal"
+        android:background="@color/lightsteelblue"
+        android:layout_marginLeft="10dp"
+         android:textColor="@color/white"
+         android:textSize="20dp"/>
+</LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+    android:id="@+id/text1"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="健康数据"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:textStyle="bold"   
+    />
+    
+ <ScrollView 
+     android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+     
+     >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+      
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/sleep"
+        android:drawableLeft="@drawable/sleel_data"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:text="睡眠       ——7小时15分钟  "        
+        />
+      
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/sport1"
+        android:drawableLeft="@drawable/yundong2"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:text="运动       ——2875步   "          
+        />
+
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/weight"
+        android:drawableLeft="@drawable/chen"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:text="体重        ——48KG "          
+        />
+ 
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xueya"
+        android:drawableLeft="@drawable/xueya"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:text="血压       ——98/77 mmHg "          
+        />
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/xuetang"
+        android:drawableLeft="@drawable/xuetang"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:text="血糖        ——10.6 mol/L"          
+        />
+   
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/xinlv"
+        android:drawableLeft="@drawable/xinlv"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:text="心率       ——85次/分  "          
+        />
+  
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tizhi"
+        android:drawableLeft="@drawable/tizhi"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:text="体脂        ——20.6%"          
+        />
+        <Button 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/weidu"
+        android:drawableLeft="@drawable/wenduji"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:text="温度        ——36.8℃  "          
+        />
+    
+    </LinearLayout>
+   </ScrollView>
+   
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/xuetang_text1"
+        android:text="血糖数据"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"    
+        />
+      
+      <ImageView 
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:src="@drawable/xuetangmain"
+	     android:layout_gravity="center_horizontal"
+     />
+      
+ <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+        >
+    
+    <TextView 
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="请输入您的血糖"
+        />
+    <EditText 
+       android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:id="@+id/xuetang_edittext"   
+	
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="mmol/L"
+        />
+  </LinearLayout>
+  
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+
+      >
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="空腹"
+         android:enabled="false" 
+          />
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="早餐后"
+         android:enabled="false"
+          />
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="午餐前"
+         android:enabled="false"
+          />
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="午餐后"
+         android:enabled="false"
+          />
+      
+  </LinearLayout>
+  
+   <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+
+      >
+      
+
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="晚餐前"
+       
+          />
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="晚餐后"
+      
+          />
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="睡前"
+         android:enabled="false"
+          />
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="凌晨"
+         android:enabled="false"/>
+      
+  </LinearLayout>
+  
+ <TextView 
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:id="@+id/text_xuetang"
+	    />
+ 
+ <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="20dp"
+        android:id="@+id/xuetang_date_linearlayout"
+        >
+		 <DatePicker 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/DatePicker_xuetang"
+			android:calendarViewShown="false" 	    
+			/>     
+		<TimePicker 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/timePicker_xuetang"		
+		        
+		    />   
+    </LinearLayout>    
+     <Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/xuetang_save"
+	    android:text="保存" 
+    /> 
+     
+ 
+</LinearLayout>
+

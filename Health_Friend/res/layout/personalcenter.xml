@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beijing" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@color/azure"
+        >
+        <ImageButton
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginBottom="10dp"
+        	android:layout_marginTop="15dp"
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginRight="20dp"
+        	android:id="@+id/touxiang"
+        	android:src="@drawable/touxiang"
+        	android:background="#F5F5F5"
+        	/>
+
+        <TextView
+            android:id="@+id/txname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名   "
+            android:textSize="20dp"
+            android:layout_gravity="center" />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:textSize="20sp"
+            android:layout_gravity="center" 
+            android:id="@+id/user_name"
+            />
+  
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@color/azure"
+        >
+        <TextView 
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="我的健康"
+        	android:textSize="18dp"
+        	android:layout_marginTop="10dp"
+        	android:id="@+id/tx_1"
+        	/>
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgrey"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+            
+            <ImageButton
+	            android:id="@+id/imgbtn1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginLeft="21dp"
+	            android:background="#F5F5F5"
+	            android:src="@drawable/myplan" />
+            <TextView
+                android:id="@+id/plantx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgbtn1"
+                android:layout_marginLeft="20dp"
+                android:text="我的计划" />
+
+            <ImageButton
+                android:id="@+id/imgbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#F5F5F5"
+                android:src="@drawable/report" />
+            <TextView
+                android:id="@+id/reporttx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgbtn2"
+                android:layout_centerHorizontal="true"
+                android:text="体检报告" />
+            
+            <ImageButton
+                android:id="@+id/imgbtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="21dp"
+                android:background="#F5F5F5"
+                android:src="@drawable/yuedoctor" />
+            <TextView
+                android:id="@+id/yuedoctortx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imgbtn3"
+                android:layout_below="@+id/imgbtn3"
+                android:text="预约医生" />
+
+        </RelativeLayout>
+        
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/azure"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tx_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="其他"
+            android:textSize="18dp" />
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <ImageButton
+                android:id="@+id/imgbtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="21dp"
+                android:background="#F5F5F5"
+                android:src="@drawable/thecontact" />
+            <TextView
+                android:id="@+id/thecontacttx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgbtn4"
+                android:layout_marginLeft="20dp"
+                android:text="紧急联系人" />
+
+            <ImageButton
+                android:id="@+id/imgbtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#F5F5F5"
+                android:src="@drawable/help" />
+            <TextView
+                android:id="@+id/helptx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgbtn5"
+                android:layout_centerHorizontal="true"
+                android:text="帮助" />
+
+            <ImageButton
+                android:id="@+id/imgbtn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="21dp"
+                android:background="#F5F5F5"
+                android:src="@drawable/service" />
+            <TextView
+                android:id="@+id/servicetx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imgbtn6"
+                android:layout_below="@+id/imgbtn6"
+                android:text="联系客服" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

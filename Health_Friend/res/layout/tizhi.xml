@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tizhi_text1"
+        android:text="记录体脂"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"    
+        />
+     <ImageView 
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:src="@drawable/tizhimain"
+	     android:layout_gravity="center_horizontal"
+     />
+     
+    <LinearLayout 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center"
+        >
+    
+    <TextView 
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="请输入您的体脂"
+        />
+    <EditText 
+       android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"   
+	   android:id="@+id/tizhi_edittext"
+	
+        />
+     <TextView 
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="%"
+        />
+    
+</LinearLayout>
+
+    <LinearLayout 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+         android:orientation="horizontal"
+
+        >
+    
+    <TextView 
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="肌肉含量"
+        />
+    <EditText 
+           android:layout_marginLeft="18dp"
+	       android:layout_width="200dp"
+		   android:layout_height="wrap_content"
+		   android:gravity="center"  
+		   android:id="@+id/tizhi_jirou_edittixt" 
+	
+        />
+     <TextView 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:text="KG  >"
+	     android:gravity="right"
+        />
+    
+</LinearLayout>
+
+    <LinearLayout 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+         android:orientation="horizontal"
+
+        >
+    
+    <TextView 
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="骨骼含量"
+        />
+    <EditText 
+           android:layout_marginLeft="18dp"
+	       android:layout_width="200dp"
+		   android:layout_height="wrap_content"
+		   android:gravity="center"   
+	     android:id="@+id/tizhi_guge_edittixt" 
+        />
+     <TextView 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:text="KG  >"
+	     android:gravity="right"
+        />
+    
+</LinearLayout>
+    <LinearLayout 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+         android:orientation="horizontal"
+
+        >
+    
+    <TextView 
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="水分含量"
+        />
+    <EditText 
+           android:layout_marginLeft="18dp"
+	       android:layout_width="200dp"
+		   android:layout_height="wrap_content"
+		   android:gravity="center"   
+	       android:id="@+id/tizhi_shuifen_edittixt" 
+        />
+     <TextView 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:text="%  >"
+	     android:gravity="right"
+        />
+    </LinearLayout>
+	<TextView 
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:id="@+id/text_tizhi"
+	    />
+
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="20dp"
+        android:id="@+id/tizhi_date_linearlayout"
+        >
+		 <DatePicker 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/DatePicker_tizhi"
+			android:calendarViewShown="false" 	    
+			/>     
+		<TimePicker 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/timePicker_tizhi"		
+		        
+		    />   
+    </LinearLayout>
+        
+     <Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/tizhi_save"
+	    android:text="保存"
+	    android:layout_marginTop="8dp"   
+    /> 
+    
+
+</LinearLayout>

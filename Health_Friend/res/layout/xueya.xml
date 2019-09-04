@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/xueya_text1"
+        android:text="记血压"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+     
+        />
+ <ImageView 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/xueyamai"
+     android:layout_gravity="center_horizontal"
+     />
+      
+    <LinearLayout 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="请输入您的最高血压值"
+        />
+    <EditText 
+       android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:id="@+id/xueya_editext"   
+	
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="mmHg"
+        />
+    
+</LinearLayout>
+
+        <LinearLayout 
+         android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="请输入您的最低血压值"
+        />
+    <EditText 
+       android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:id="@+id/xueya_editext2"     
+	
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="mmHg"
+        />
+    
+</LinearLayout>
+
+        
+
+
+	<TextView 
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:id="@+id/xueya_gettime"
+	    />
+
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="20dp"
+        android:id="@+id/xueya_date_linearlayout"
+        >
+		 <DatePicker 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/DatePicker_xueya"
+			android:calendarViewShown="false" 	    
+			/>     
+		<TimePicker 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/timePicker_xueya"		
+		        
+		    />   
+    </LinearLayout>
+  <Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/xueya_save"
+    android:text="保存"
+     android:layout_marginTop="8dp"
+
+     
+    />  
+</LinearLayout>

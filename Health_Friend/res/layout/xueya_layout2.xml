@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据解读"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"    
+        />
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center"
+      
+      >
+       <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/xueya_get_text"
+         android:textSize="20sp"
+         android:textColor="@color/lightblue"
+         android:textStyle="bold"
+         /> 
+        <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="/"
+         android:textSize="38sp"
+         android:textStyle="bold"
+            /> 
+       <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/xueya_get_text2"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:textColor="@color/lightskyblue"
+         /> 
+ </LinearLayout>
+ 
+      <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="mmHg"
+         android:gravity="center"
+         android:textSize="20sp"
+         />
+      <ImageView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/xueyazhi"
+          android:layout_marginTop="2dp"
+          />
+      
+          <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/fenxi"
+          android:layout_marginLeft="8dp"
+          android:paddingRight="8dp"
+          android:text="数据解读"
+          android:textSize="15dp"
+          />
+         <TextView 
+          android:layout_marginTop="3dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/xueya_return_text"
+          android:text="您的血压基本正常，情况良好哦！请继续平时注意规律适度运动，饮食规律，保证充足的睡眠，多吃新鲜蔬菜和水果，低盐低脂饮食。"
+          android:textSize="12sp"
+          />
+       <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/xiangguanxinxi"
+          android:layout_marginLeft="8dp"
+          android:paddingRight="8dp"
+          android:text="相关信息"
+          android:textSize="13sp"
+          />
+         <TextView 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/xueya_getdate_text"  
+          android:textSize="10sp"
+          android:layout_marginLeft="4dp"
+          />
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手动录入"
+            android:textSize="8sp"
+            android:layout_marginLeft="2dp"
+            
+            /> 
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.health_friend"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ <uses-permission android:name="android.permission.CAMERA"/>
+ <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="Welcom"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register_login"></activity>
+        <activity
+            android:name=".MainActivity"></activity>
+        
+        <activity
+            android:name=".DataActiviy"/>
+        
+        <activity
+            android:name=".PressActiviy"/>
+        
+        <activity
+            android:name=".NewActiviy"/>
+        
+        <activity
+            android:name=".MineActivity"/>
+    
+    
+    <activity
+            android:name=".Press_testActivitty_1"/>
+    
+    <activity
+            android:name=".Press_testActivitty_2"/>
+    
+    <activity
+            android:name=".Press_testActivitty_3"/>
+    
+    <activity
+            android:name=".Press_testActivitty_4"/>
+    <activity
+            android:name=".Press_testActivitty_5"/>
+    
+     <activity
+            android:name=".Press_testActivitty_result"/>
+      <activity
+            android:name=".Game"/>
+       <activity
+            android:name=".Relax"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>       
+       <activity
+            android:name=".Nature"/>
+       
+       <activity
+            android:name="com.example.health_friend.Activity__main"></activity>
+       
+       <activity 
+            android:name="com.example.health_friend.sleep1"
+            ></activity>
+          <activity 
+            android:name="com.example.health_friend.sleep_activity2"
+            ></activity>
+           <activity 
+            android:name="com.example.health_friend.sport_first"
+            ></activity>
+            <activity 
+            android:name="com.example.health_friend.tizhi_activity1"
+            ></activity>
+             <activity 
+            android:name="com.example.health_friend.tizhi_activity2"
+            ></activity>
+              <activity 
+            android:name="com.example.health_friend.weight_activity2"
+            ></activity>
+               <activity 
+            android:name="com.example.health_friend.weight_layout1_activity"
+            ></activity>
+                <activity 
+            android:name="com.example.health_friend.wendu_activity1"
+            ></activity>
+           <activity 
+            android:name="com.example.health_friend.wendu_activity2"
+            ></activity>
+            <activity 
+            android:name="com.example.health_friend.xinlv_activity1"
+            ></activity>
+             <activity 
+            android:name="com.example.health_friend.xinlv_activity2"
+            ></activity>
+              <activity 
+            android:name="com.example.health_friend.xuetang_activity1"
+            ></activity>
+               <activity 
+            android:name="com.example.health_friend.xuetang_activity2"
+            ></activity>
+                <activity 
+            android:name="com.example.health_friend.xueya_activity1"
+            ></activity>
+                 <activity 
+            android:name="com.example.health_friend.xueya_activity2"
+            ></activity>
+                 
+                 
+                 <activity
+            android:name="com.example.health_friend.Zixun_main"
+           >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixunitem1"
+             >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem2"
+            >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem3"
+             >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem4"
+            >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem5"
+           >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem6"
+             >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem7"
+             >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem8"
+           >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem9"
+             >
+        </activity>
+        <activity
+            android:name="com.example.health_friend.Zixinitem10"
+            >
+        </activity>
+        <activity 
+            android:name="com.example.health_friend.Zixun_more"
+            ></activity>
+        
+         <activity
+            android:name="com.example.health_friend.Mine"></activity>
+        
+           <activity
+        	android:name=".MyDangAn"/>
+        <activity
+        	android:name=".MyPlan"/>
+        <activity
+        	android:name=".SportPlan"/>
+        <activity
+        	android:name=".SportStart"/>
+        <activity
+        	android:name=".SleepPlan"/>
+        <activity
+        	android:name=".AlarmActivity"/>
+        <activity
+        	android:name=".MedicalReport"/>
+        <activity
+        	android:name=".Camera"/>
+        <activity
+        	android:name=".InviteFriends"/>
+        <activity
+        	android:name=".Help"/>
+        <activity
+        	android:name=".ContactService"/>
+        <activity
+        	android:name=".YuYue"/>
+        
+         <activity
+            android:name=".save"/>
+        
+        <receiver 
+            android:name="com.example.health_friend.AlarmReceiver"
+            android:process=":remote"
+            ></receiver>
+      
+        
+    </application>
+<uses-permission android:name ="android.permission.INTERNET"/>
+
+  <uses-permission android:name="android.permission.CALL_PHONE"/>   
+</manifest>

@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zixun_main" 
+    android:background="#F5F5F5">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    >
+    <ImageButton 
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/zinxin_0_0"
+        android:id="@+id/IM1"
+        /> 
+</RelativeLayout>
+
+
+    <ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/SC" 
+    android:scrollbars="none"
+    android:layout_marginTop="120dp"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="热门资讯                                                      更多>"
+    android:textSize="15sp"
+    android:id="@+id/text_title"
+    android:background="#F5F5F5"
+  
+     />
+	<Button 
+	    android:id="@+id/zixun_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+        android:layout_margin="5dp"	
+        android:drawableLeft="@drawable/zixun1_1" 
+        android:text="        秋天养生要注意什么？" 
+        android:textSize="15sp"
+        
+         />
+	
+        <Button 
+	    android:id="@+id/zixun_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp"
+	    android:drawableLeft="@drawable/zixun2_1" 
+        android:text="         日常生活急救小常识？"
+        
+        android:textSize="15sp"
+	    />
+        <Button 
+	    android:id="@+id/zixun_item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp"
+	    android:drawableLeft="@drawable/zixun3_1" 
+        android:text="          秋季运动养生学问"
+        android:textSize="15sp"
+	    />
+        <Button 
+	    android:id="@+id/zixun_item4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp" 
+        android:drawableLeft="@drawable/zixun4_1" 
+        android:text="              怎样养生抗衰老"
+        android:textSize="15sp"	    
+	    />
+        <Button 
+	    android:id="@+id/zixun_item5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp"
+        android:drawableLeft="@drawable/zixun5_1" 
+        android:text="    经常熬夜的人怎么通过食物调节身体"
+        android:textSize="15sp"	    
+	    />
+        <Button 
+	    android:id="@+id/zixun_item6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp"  
+        android:drawableLeft="@drawable/zixun6_1" 
+        android:text="          怎样才能有个好睡眠"
+        android:textSize="15sp"
+	    />
+        <Button 
+	    android:id="@+id/zixun_item7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp" 
+        android:drawableLeft="@drawable/zixun7_1" 
+        android:text="          怎么预防心血管疾病"
+        android:textSize="15sp"
+	    />
+        <Button 
+	    android:id="@+id/zixun_item8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp" 
+        android:drawableLeft="@drawable/zixun8_1" 
+        android:text="            减轻压力有哪些办法"
+        android:textSize="15sp"
+	    />
+        <Button 
+	    android:id="@+id/zixun_item9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp" 
+        android:drawableLeft="@drawable/zixun9_1" 
+        android:text="          在秋季如何预防疾病" 
+        android:textSize="15sp"
+	    />
+        <Button 
+	    android:id="@+id/zixun_item10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66e5e5e5"
+	    android:layout_margin="5dp" 
+        android:drawableLeft="@drawable/zixun10_1" 
+        android:text="     日常生活中可以用什么代替洗洁精"
+        android:textSize="15sp"
+	    />
+        	</LinearLayout>
+        </ScrollView>
+</RelativeLayout>
